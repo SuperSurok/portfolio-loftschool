@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 480px; }
+
+  .header__left {
+    width: 70%; }
+
+  .header__right {
+    width: 30%;
+    padding-top: 0px; }
+
+  .career__pic {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 9px; }
+
+  .contacts__dropdown {
+    right: 0px;
+    transform: translateX(0);
+    left: auto; }
+
+  .contacts__dropdown-triangle {
+    right: 0px;
+    transform: translateX(0);
+    left: auto; }
+
+  .contacts__trigger {
+    background: url("../img/icons/socials/phone.png") 0 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    font-size: 0px;
+    vertical-align: top; }
+
+  .contacts:hover .contacts__trigger {
+    background: url("../img/icons/socials/phonehover.png") 0 0 no-repeat; }
+
+  .nav__link-text {
+    margin-left: 5px; }
+
+  .content-title {
+    text-align: center;
+    margin-bottom: 15px; }
+
+  .about__left, .about__right {
+    float: none;
+    width: 100%; }
+
+  .nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 18px; }
+
+  .about__download {
+    text-align: center; }
+
+  .career__left {
+    margin-bottom: 20px;
+    text-align: center; }
+
+  .career__left, .career__right {
+    width: 100%;
+    float: none; }
+
+  .career__pic {
+    display: inline-block; }
+
+  .career__item {
+    padding: 0; }
+
+  .career__block {
+    display: block;
+    width: 100%; }
+    .career__block:after, .career__block:before {
+      display: none; }
+
+  .career__title {
+    font-size: 18px; }
+
+  .career__occupation, .career__time {
+    font-size: 16px; }
+
+  .career__year {
+    display: none; }
+
+  .porfolio__item {
+    width: calc(100% / 2 - 20px); }
+
+  .footer {
+    height: 95px;
+    margin-top: -95px; }
+
+  .wrapper:after {
+    height: 95px; }
+
+  .footer__left, .footer__right {
+    float: none;
+    width: 100%;
+    text-align: center; } }
+.content {
+  padding-bottom: 50px; }
+
+/*# sourceMappingURL=tablet.css.map */

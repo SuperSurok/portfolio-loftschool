@@ -1,0 +1,28 @@
+.nav__link {
+  display: block;
+  padding: 10px;
+  text-align: right;
+  padding-right: 10px 25px 10px 0px;
+  text-decoration: none;
+  color: #414141;
+  border-right: 6px solid transparent;
+  font-size: 18px;
+  transition: .3s; }
+
+.nav__link:hover {
+  color: #33c1e3;
+  transition: color .3s; }
+
+.nav__link-text, .nav__link-icon {
+  display: inline-block;
+  vertical-align: middle; }
+
+.nav__link-text {
+  margin-left: 12px; }
+
+.nav__item_active .nav__link {
+  border-color: #33c1e3;
+  font-weight: 600;
+  color: #33c1e3; }
+
+/*# sourceMappingURL=navigation.css.map */

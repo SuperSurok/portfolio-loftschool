@@ -1,0 +1,22 @@
+
+//css
+@import "layout/normalize";
+@import "layout/adjustment";
+@import "layout/fonts";
+@import "layout/font-awesome";
+
+//sections
+@import "sections/header";
+@import "sections/content";
+@import "sections/navigation";
+@import "sections/career";
+@import "sections/portfolio";
+@import "sections/footer";
+@import "sections/firstpage";
+
+
+// media
+@import "media/desktop";
+@import "media/aptop";
+@import "media/tablet";
+@import "media/phones";

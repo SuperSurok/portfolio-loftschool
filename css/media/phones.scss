@@ -1,0 +1,73 @@
+@media screen and (max-width: 480px) {
+  .container{
+    width: 95%;
+  }
+
+.header__left {
+  width: 80%;
+}
+
+.header__right {
+  width: 20%;
+}
+
+.contacts__dropdown {
+    right: 0px;
+    transform: translateX(0);
+    left: auto;
+}
+
+.contacts__dropdown-triangle {
+    right: 0px;
+    transform: translateX(0);
+    left: auto;
+}
+
+.career__pic{
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+.user__name {
+  min-width: 150px;
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.nav__item {
+  margin-right: 0px;
+}
+
+.nav__link {
+  font-size: 14px;
+}
+
+.nav__link-icon {
+  display: none;
+}
+
+.about__pic {
+  width: 140px;
+  height: 140px;
+}
+
+.portfolio__list {
+  margin-left: 0;
+}
+
+.portfolio__item {
+  width: 100%;
+  margin-left: 0;
+}
+
+.footer__left {
+  padding-top: 12px;
+}
+
+.footer__right {
+  padding-top: 5px;
+}
+
+}
